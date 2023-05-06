@@ -240,7 +240,7 @@ const parentProtocols: IParentProtocol[] = [
     chains: [],
     twitter: "compoundfinance",
     governanceID: [
-      "snapshot:comp-vote.eth", 
+      "snapshot:comp-vote.eth",
       "compound:ethereum:0xc0da02939e1441f497fd74f78ce7decb17b66529",
       "compound:ethereum:0xc0da01a04c3f3e0be433606045bb7017a7323e38",
       "compound:ethereum:0x336505ec1bcc1a020eede459f57581725d23465a",
@@ -466,7 +466,7 @@ const parentProtocols: IParentProtocol[] = [
     twitter: "Uniswap",
     treasury: "uniswap.js",
     governanceID: [
-      "snapshot:uniswap", 
+      "snapshot:uniswap",
       "compound:ethereum:0x408ed6354d4973f66138c91495f2f2fcbd8724c3",
       "compound:ethereum:0x5e4be8bc9637f0eaa1a755019e06a68ce081d58f"
     ]
@@ -801,7 +801,7 @@ const parentProtocols: IParentProtocol[] = [
     chains: [],
     twitter: "TheMahaDAO",
     treasury: "mahadao.js",
-    governanceID: ["snapshot:maha.eth"]
+    governanceID: ["snapshot:maha.eth","compound:ethereum:0xe7D23C2B3E9148c46ceC796F018842ab72D5867F"]
   },
   {
     id: "parent#tethys-finance",
