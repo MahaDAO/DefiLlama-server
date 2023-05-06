@@ -1483,18 +1483,22 @@ const data2: Protocol[] = [
     symbol: "MAHA",
     url: "https://mahadao.com",
     description: "MahaDAO is a community focused DAO focused on building ARTH, a decentralized valuecoin that maintains the purchasing power of it's token. It is designed to appreciate against the US dollar (after accounting for inflation) in the long run whilst remaining relatively stable in the short run.",
-    chain: "Polygon",
+    chain: "Ethereum",
     logo: `${baseIconsUrl}/mahadao.png`,
     audits: "2",
     audit_note: null,
     gecko_id: null,
     cmcId: null,
     category: "CDP",
-    chains: ["Polygon", "Binance", "Ethereum"],
+    chains: ["Polygon", "Binance", "Ethereum", "Arbitrum"],
     oracles: ["Chainlink"],
     forkedFrom: ["Liquity"],
     module: "mahadao/index.js",
     twitter: "TheMahaDAO",
+    audit_links: [
+      "https://github.com/MahaDAO/audits/tree/main/arth-ethereum",
+    ],
+    governanceID: ["compound:ethereum:0xe7D23C2B3E9148c46ceC796F018842ab72D5867F"],
     parentProtocol: "parent#mahadao",
     listedAt: 1645824445,
   },
@@ -20988,7 +20992,7 @@ const data2: Protocol[] = [
     gecko_id: null,
     cmcId: null,
     category: "Lending",
-    chains: ["Ethereum"],
+    chains: ["Ethereum",'Arbitrum',"Binance"],
     module: "mahalend/index.js",
     twitter: "mahalend",
     forkedFrom: ["AAVE"],
@@ -28853,7 +28857,7 @@ const data2: Protocol[] = [
     twitter: "insrtfinance",
     audit_links: ["https://www.certik.com/projects/insrt-finance"],
     listedAt: 1679483191
-  }, 
+  },
   {
     id: "2710",
     name: "BaptSwap",
@@ -29288,7 +29292,7 @@ const data2: Protocol[] = [
     forkedFrom: [],
     module: "gemswap/index.js",
     twitter: "GemSwap_ZKS",
-    listedAt: 1679891989  
+    listedAt: 1679891989
   },
   {
     id: "2730",
@@ -29310,7 +29314,7 @@ const data2: Protocol[] = [
     module: "covo-v2/index.js",
     twitter: "covofinance",
     parentProtocol: "parent#covo-finance",
-    listedAt: 1679912448  
+    listedAt: 1679912448
   },
   {
     id: "2731",
@@ -29331,7 +29335,7 @@ const data2: Protocol[] = [
     forkedFrom: ["Trader Joe DEX"],
     module: "swapline/index.js",
     twitter: "SwaplineDEX",
-    listedAt: 1679923802  
+    listedAt: 1679923802
   },
   {
     id: "2732",
@@ -29352,7 +29356,7 @@ const data2: Protocol[] = [
     forkedFrom: [],
     module: "atlas-fi/index.js",
     twitter: "Atlasaggregator",
-    listedAt: 1679923806  
+    listedAt: 1679923806
   },
   {
     id: "2733",
@@ -29373,7 +29377,7 @@ const data2: Protocol[] = [
     forkedFrom: [],
     module: "citrus/index.js",
     twitter: "FamousFoxFed",
-    listedAt: 1679923808  
+    listedAt: 1679923808
   },
   {
     id: "2734",
@@ -29439,7 +29443,7 @@ const data2: Protocol[] = [
     forkedFrom: [],
     module: "teller/index.js",
     twitter: "useteller",
-    listedAt: 1680005661  
+    listedAt: 1680005661
   },
   {
     id: "2737",
@@ -29483,7 +29487,7 @@ const data2: Protocol[] = [
     forkedFrom: [],
     module: "kafidao/index.js",
     twitter: null,
-    listedAt: 1680009928  
+    listedAt: 1680009928
   },
   {
     id: "2739",
@@ -29504,7 +29508,7 @@ const data2: Protocol[] = [
     forkedFrom: ["Solidly"],
     module: "Liquify/index.js",
     twitter: "NetworkLiquify",
-    listedAt: 1680017064  
+    listedAt: 1680017064
   },
   {
     id: "2740",
@@ -32759,7 +32763,7 @@ const data2: Protocol[] = [
     forkedFrom: ["GMX"],
     module: "rollup-fi/index.js",
     twitter: "Rollup_Finance",
-    audit_links: [ 
+    audit_links: [
                    "https://972411339-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FlKZgazbrrlOv3lmzetUj%2Fuploads%2FYbZ40yoZOoHTV6I8qz3Y%2FRollup.Finance%20Smart%20Contract%20Security%20Audit%20Report.pdf?alt=media&token=91c34451-192e-4015-b3b2-6b74e1307951",
                    "https://972411339-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FlKZgazbrrlOv3lmzetUj%2Fuploads%2F6yoR3zWB76OGB6zUH5YS%2FRollup.Finance%20Smart%20Contract%20Audit%20Report%20by%20Noneage.pdf?alt=media&token=2d3e3df2-6285-4291-88a6-e6a791f62e77"
                  ],
